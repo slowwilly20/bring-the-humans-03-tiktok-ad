@@ -37,9 +37,9 @@ const AD = {
     "#makefun #AIagents #bounty",
   video_url: null as string | null,
   format: "1080x1920 vertical, H.264 + AAC",
-  // Verified from the finished render (ffprobe, 23 Nov 2026):
-  // 28.466667 s, 1080x1920, 30 fps, 2,223,803 bytes.
-  duration_seconds: 28.47,
+  // Verified from the finished render (ffprobe, 23 Nov 2026, pacing fix):
+  // 21.2 s, 1080x1920, 30 fps, 1,983,966 bytes.
+  duration_seconds: 21.2,
   fps: 30,
 };
 
